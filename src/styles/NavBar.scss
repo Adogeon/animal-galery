@@ -1,0 +1,30 @@
+.nav-bar {
+  display: grid;
+  grid-template-columns: 4% auto 4%;
+  border-top: 2px solid grey;
+  padding: 15px;
+  height: 20px;
+  font-size: 20px;
+  a {
+    text-align: center;
+  }
+}
+
+.page-nav {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+  li::after {
+    content: ";";
+    margin-right: 0.125rem;
+  }
+
+  li:last-child::after {
+    content: "";
+  }
+
+  a:hover {
+    font-style: italic;
+  }
+}
