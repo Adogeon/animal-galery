@@ -10,22 +10,22 @@ const NavBar = props => {
       <li>
         <ul className="page-nav">
           <li>
-            <Link href="/">Overview</Link>
+            <Link to="/">Overview</Link>
           </li>
           <li>
-            <Link>Jungle</Link>
+            <Link to="/biome/0">Jungle</Link>
           </li>
           <li>
-            <Link>Ocean</Link>
+            <Link to="/biome/1">Ocean</Link>
           </li>
           <li>
-            <Link>Plain</Link>
+            <Link to="/biome/2">Plain</Link>
           </li>
           <li>
-            <Link>Ocean</Link>
+            <Link to="/biome/3">Desert</Link>
           </li>
           <li>
-            <Link>Mountain</Link>
+            <Link to="/biome/4">Mountain</Link>
           </li>
         </ul>
       </li>
