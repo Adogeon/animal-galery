@@ -18,18 +18,20 @@ const HomePage = () => {
         <div id="link-list">
           {data.map(biome => {
             return (
-              <ul className="link-marquee">
-                {biome.species.map(species => {
-                  return (
-                    <li>
-                      <Link>
-                        {species.name}
-                        <img src={species.imgURL} alt="sm-img"></img>
-                      </Link>
-                    </li>
-                  );
-                })}
-              </ul>
+              <div className="horz-scroll">
+                <ul className="link-marquee">
+                  {biome.species.map(species => {
+                    return (
+                      <li>
+                        <Link>
+                          {species.name}
+                          <img src={species.imgURL} alt="sm-img"></img>
+                        </Link>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
             );
           })}
         </div>

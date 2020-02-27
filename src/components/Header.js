@@ -5,7 +5,7 @@ const Header = props => {
   return (
     <header className='head-bar'>
       <Link to="/">Animal Galery</Link>
-      <div>{props.title}</div>
+      <div id="page-title">{props.title}</div>
     </header>
   );
 };

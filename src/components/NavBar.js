@@ -1,7 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const NavBar = props => {
+  const active = {
+    "font-style": "italic"
+  };
+
   return (
     <ul className="nav-bar">
       <li>
@@ -10,22 +14,34 @@ const NavBar = props => {
       <li>
         <ul className="page-nav">
           <li>
-            <Link to="/">Overview</Link>
+            <NavLink exact to="/" activeStyle={active}>
+              Overview
+            </NavLink>
           </li>
           <li>
-            <Link to="/biome/0">Jungle</Link>
+            <NavLink to="/biome/0" activeStyle={active}>
+              Jungle
+            </NavLink>
           </li>
           <li>
-            <Link to="/biome/1">Ocean</Link>
+            <NavLink to="/biome/1" activeStyle={active}>
+              Ocean
+            </NavLink>
           </li>
           <li>
-            <Link to="/biome/2">Plain</Link>
+            <NavLink to="/biome/2" activeStyle={active}>
+              Plain
+            </NavLink>
           </li>
           <li>
-            <Link to="/biome/3">Desert</Link>
+            <NavLink to="/biome/3" activeStyle={active}>
+              Desert
+            </NavLink>
           </li>
           <li>
-            <Link to="/biome/4">Mountain</Link>
+            <NavLink to="/biome/4" activeStyle={active}>
+              Mountain
+            </NavLink>
           </li>
         </ul>
       </li>

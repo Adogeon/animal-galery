@@ -1,10 +1,12 @@
+@import "./Font.scss";
+
 $line-height: 72px;
 
 #overview-main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: calc(100vh - 110px);
+  
 }
 
 @keyframes marquee {
@@ -16,11 +18,18 @@ $line-height: 72px;
   }
 }
 
+.horz-scroll {
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
 .link-marquee {
   display: flex;
   flex-direction: row;
   flex-wrap: none;
   align-items: flex-start;
+  font-family: $big-font;
   font-size: $line-height;
   line-height: $line-height;
   height: 72px;

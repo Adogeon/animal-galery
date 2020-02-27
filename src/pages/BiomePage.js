@@ -10,14 +10,15 @@ import content from "../data/data.json";
 const BiomePage = () => {
   const params = useParams();
   const data = content[params.key];
+  const backColor = { "background-color": data["bg-color"] };
 
   return (
     <>
       <Header title={data.title} />
       <NavBar />
-      <main>
+      <main style={backColor}>
         <div id="biome-intro">{data.desc}</div>
-        <div id="galery">
+        <div id="galery" >
           {data.species.map(species => {
             return (
               <Link>

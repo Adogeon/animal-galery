@@ -3,6 +3,7 @@
     "biomeId": "jungle",
     "title": "Jungle",
     "desc": "A land characterize by dense vegetation; home of vast diversity of plant and animal species",
+    "bg-color": "#29ab87",
     "species": [
       {
         "name": "Okapi",
@@ -30,6 +31,7 @@
     "biomeId": "ocean",
     "title": "Ocean",
     "desc": "The cradles of life on Earth where there are still more undiscover depth",
+    "bg-color": "#006994",
     "species": [
       {
         "name": "Whale Shark",
@@ -57,6 +59,7 @@
     "biomeId": "plain",
     "title": "Plain",
     "desc": "A sea of grass, where life mostly consist of traveling and running",
+    "bg-color": "#939c5a",
     "species": [
       {
         "name": "Mongolian Gazelle",
@@ -84,6 +87,7 @@
     "biomeId": "desert",
     "title": "Desert",
     "desc": "Intense temperature differences and lack of water push animal that live here to develop different survival strategy",
+    "bg-color": "#edc9af",
     "species": [
       {
         "name": "Bactrian Camel",
@@ -111,6 +115,7 @@
     "biomeId": "mountain",
     "title": "Mountain",
     "desc": "High altitute bring it all set of challenge to the animal that call it home",
+    "bg-color": "#ebecf0",
     "species": [
       {
         "name": "Demoiselle Crane",
