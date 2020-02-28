@@ -13,7 +13,7 @@ const BiomePage = () => {
   const backColor = { "background-color": data["bg-color"] };
 
   return (
-    <>
+    <div className ={"wrapper"}>
       <Header title={data.title} />
       <NavBar />
       <main style={backColor}>
@@ -28,7 +28,7 @@ const BiomePage = () => {
           })}
         </div>
       </main>
-    </>
+    </div>
   );
 };
 
