@@ -1,15 +1,46 @@
-.fade-enter {
-  #page-title,
-  main {
+.animation-wrapper {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.slide-in-enter {
+  #page-title {
     opacity: 0;
-    z-index: 1;
+  }
+
+  .hid-box {
+    height: calc(100vh - 92px);
   }
 }
 
-.fade-enter.fade-enter-active {
-  #page-title,
-  main {
+.slide-in-enter.slide-in-enter-active {
+  #page-title {
     opacity: 1;
     transition: opacity 900ms ease-in;
+  }
+
+  .hid-box {
+    height: 0;
+    transition: all 1s ease-in-out;
+    transition-delay: 1s;
+  }
+}
+
+.slide-in-exit {
+  position: fixed;
+  top: 0px;
+  #page-title {
+    opacity: 0;
+  }
+
+  .hid-box {
+    height: 0;
+  }
+}
+
+.slide-in-exit.slide-in-exit-active {
+  .hid-box {
+    height: calc(100vh - 92px);
+    transition: all 0.5s ease-in-out;
   }
 }

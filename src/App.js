@@ -12,11 +12,15 @@ function App() {
         render={({ location }) => {
           return (
             <div className="App">
-              <TransitionGroup>
+              <TransitionGroup className="animation-wrapper">
                 <CSSTransition
                   key={location.key}
-                  classNames="fade"
-                  timeout={1000}
+                  classNames="slide-in"
+                  timeout={{
+                    exit: 500,
+                    enter: 2000
+                  }}
+                  unmountOnExit={true}
                 >
                   <Switch location={location}>
                     <Route exact path="/">

@@ -13,21 +13,24 @@ const BiomePage = () => {
   const backColor = { "background-color": data["bg-color"] };
 
   return (
-    <div className ={"wrapper"}>
+    <div className={"wrapper"}>
       <Header title={data.title} />
-      <NavBar />
-      <main style={backColor}>
-        <div id="biome-intro">{data.desc}</div>
-        <div id="galery" >
-          {data.species.map(species => {
-            return (
-              <Link>
-                <img src={species.imgURL} alt="thumbnail"></img>
-              </Link>
-            );
-          })}
-        </div>
-      </main>
+      <div className={"slide-wrapper"}>
+        <div className={"hid-box"}></div>
+        <NavBar />
+        <main style={backColor}>
+          <div id="biome-intro">{data.desc}</div>
+          <div id="galery">
+            {data.species.map(species => {
+              return (
+                <Link>
+                  <img src={species.imgURL} alt="thumbnail"></img>
+                </Link>
+              );
+            })}
+          </div>
+        </main>
+      </div>
     </div>
   );
 };
