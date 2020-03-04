@@ -1,9 +1,15 @@
 .fade-enter {
-  opacity: 0;
-  z-index: 1;
+  #page-title,
+  main {
+    opacity: 0;
+    z-index: 1;
+  }
 }
 
 .fade-enter.fade-enter-active {
-  opacity: 1;
-  transition: opacity 1000ms ease-in;
+  #page-title,
+  main {
+    opacity: 1;
+    transition: opacity 900ms ease-in;
+  }
 }

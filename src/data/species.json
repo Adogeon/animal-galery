@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Okapi",
+    "sci-name": "Okapia Johnstoni",
+    "status":"Endangered",
+    "des": "Also known as the \"forest giraffe\", the okapi is one of the oldest mammals left on earth. Despite their coat, the okapi is a relative of a giraffe instead of zebra. Like the girafe, they process a very long tounge, up to 18 in. "
+  },
+  {
+    "name": "Malayan Tapir",
+    "sci-name": "Tapirus indicus",
+    "status": "Endangered",
+    "des": "The largest of the four species of tapir and the only one native to Asia. The Malayan Tapir also spot a distinctive black and white colouration help it camoflouge in the gloom of the forest. Like other species of tapir, they have flexible proboscis and hour hooves on front feet and three hooves on rear feet."
+  },
+  {
+    "name": "Jaguar",
+    "sci-name": "Panthera Onca",
+    "status": "Near Threatened",
+    "des": "The jaguar is the largest cat spieces in the New World and act as the keystone predator in their environment. They are closely resembles the leopard, but is usually larger and sturider and their fur is covered with large rosettes with central spot."
+  },
+  {
+    "name": "Black-head Spider Monkey",
+    "sci-name": "Ateles fusciceps",
+    "status": "Critically Endangered",
+    "des": "The largest spider monkeys. Similar to the rest of its genus, black-headed spider monkey have disproportionately long, spindly limbs and prehensible tails. These adaptaion served them well in their arboreal lifestyle."
+  },
+  {
+    "name": "Brown-throated Sloth",
+    "sci-name": "Bradypus Variegatus",
+    "status": "Least Concern",
+    "des": "Like the rest of its genus, the Brown-throated Sloth prefer to take it time to do thing. They are strictly arboreal and inhabit the high canopy where they eat the young leaves.",
+  }
+
+]
