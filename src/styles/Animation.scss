@@ -24,6 +24,10 @@
     transition: all 1s ease-in-out;
     transition-delay: 1s;
   }
+
+  .slide-in {
+    overflow: visible;
+  }
 }
 
 .slide-in-exit {

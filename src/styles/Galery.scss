@@ -1,9 +1,12 @@
 #galery {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  overflow-y: auto;
+  position: relative;
+  top: 0px;
   a {
-    max-width: 40vw;
+    max-width: 30vw;
   }
 
   img {

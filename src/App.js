@@ -6,13 +6,16 @@ import BiomePage from "./pages/BiomePage";
 import "./App.scss";
 
 function App() {
+
+  
+
   return (
     <Router>
       <Route
         render={({ location }) => {
           return (
             <div className="App">
-              <TransitionGroup className="animation-wrapper">
+              <TransitionGroup className={"animation-wrapper"}>
                 <CSSTransition
                   key={location.key}
                   classNames="slide-in"

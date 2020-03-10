@@ -2,7 +2,7 @@
   {
     "name": "Okapi",
     "sci-name": "Okapia Johnstoni",
-    "status":"Endangered",
+    "status": "Endangered",
     "des": "Also known as the \"forest giraffe\", the okapi is one of the oldest mammals left on earth. Despite their coat, the okapi is a relative of a giraffe instead of zebra. Like the girafe, they process a very long tounge, up to 18 in. "
   },
   {
@@ -27,7 +27,127 @@
     "name": "Brown-throated Sloth",
     "sci-name": "Bradypus Variegatus",
     "status": "Least Concern",
-    "des": "Like the rest of its genus, the Brown-throated Sloth prefer to take it time to do thing. They are strictly arboreal and inhabit the high canopy where they eat the young leaves.",
+    "des": "Like the rest of its genus, the Brown-throated Sloth prefer to take it time to do thing. They are strictly arboreal and inhabit the high canopy where they eat the young leaves."
+  },
+  {
+    "name": "Whale shark",
+    "sci-name": "Rhincodon Typus",
+    "status": "Endangered",
+    "des": "The whale shark is the largest fish species in the world. Their mouth can be 1.5 m wide, but they are filter feeders and exclusively feed on plankton and small fishes"
+  },
+  {
+    "name": "Japanese Spider Crab",
+    "sci-name": "Macrocheira Kaempferi",
+    "status": "Lacking information",
+    "des": "Also known as Giant Spider Crab, their leg spans can reach up to 5.5 m (from claw to claw) and weigh up to 19 km. Adults can be fount at depth betwee 50 m and 600 m."
+  },
+  {
+    "name": "Green Sea Turtle",
+    "sci-name": "Chelonia Mydas",
+    "status": "Endangered",
+    "des": "The species common name is refer to the green fat found beneath its carapce. They migrate long distances between feeding ground and hatching beaches. Female crawl out on beaches, and lay eggs during the night. When hatched, hatchling emerge and scramble into the water"
+  },
+  {
+    "name": "Brown Fur Seal",
+    "sci-name": "Arctocephalus Pusilus",
+    "status": "Least Concern",
+    "des": "The Brown Fur Seal are social animals that use vocalizaiton to communicate, especially between reunion of mothers and pups when mothers need to go out for foraging. The species is inquistive and friendly when in water and often accompanies scuba divers"
+  },
+  {
+    "name": "Oceanic Whitetip Shark",
+    "sci-name": "Carcharhinus Longimanus",
+    "status": "Critically Endangered",
+    "des": "The oceanic whitetip shark is found globally in deep, open oceans. The shark is typically slow-moving, they can reach surprisingly speed when chasing after preys or compete with other species for food. "
+  },
+  {
+    "name": "Mongolian Gazelle",
+    "sci-name": "Procapra Gutturosa",
+    "status": "Least Concern",
+    "des": "Also called dzeren, the Mongolian gazelle is a medium-sized antemlope native to the smiarid Central Asin steepes of Mongolia. The male dzeren has lyre-shaped horns which curl backwards from the forehead. The Mongolian gazelle is still one of the most numerous large animals, with the total population around 1.5 mlion, but roughly 100,000 are killed each year."
+  },
+  {
+    "name": "Saiga Antelope",
+    "sci-name": "Saiga Tatarica",
+    "status": "Critically Endangered",
+    "des": "The saiga antelope originally inhabitted a vast area of Eurasian steppe zone with extensive migrations. The prominent feature of the saiga is the pair of closely spaced, bloated nostrils directed downward. During summer migrations, the saiga's nose helps filter out dust kicked up by the herd and cools the animal's blod.  Int he winter , it heats up the frigid air before it is taken to the lungs."
+  },
+  {
+    "name": "Coyote",
+    "sci-name": "Canis Latrans",
+    "status": "Least Concern",
+    "des": "The coyote is a canine native to North America. Thanks to its versatilites, the species is able to adapt to and expand into environments modified by humans.  "
+  },
+  {
+    "name": "Caribou",
+    "sci-name": "Rangifer Tarandus",
+    "status": "Vulnerable",
+    "des": "Also known as reindeer, the caribout is a species of deer native to Aritic, sub-Arctic, and mountainous regions of noerth Europe, Siberia, and North America. Male and femal reindeer can grow antlers annually with males growing larger antlers."
+  },
+  {
+    "name": "Wild Yak",
+    "sci-name": "Bos Mutus",
+    "status": "Vunerable",
+    "des": "Wukd yaks are havily built animals with a bulky frame, sturdy legs, and rounded cloven hooves. To protect against the cold, they have long sahggy hair with a dense woolly undercoat over the chest, flanks, and thighs; in males, especially, this undercoat may form a long \"skirt\". "
+  },
+  {
+    "name": "Bactrian Camel",
+    "sci-name": "Camelus Bactrianus",
+    "status": "Domesticated",
+    "des": "Domesticated Bactrian camels have served as pack animals in inner Asia since ancient times. The species has high tolerance for cold, drought and high altitudes. They help created the Silk Road by acting as beast of burden."
+  },
+  {
+    "name": "Red Kangaroo",
+    "sci-name": "Osphranter Rufus",
+    "status": "Least Concern",
+    "des": "The Red Kangaroo is the largest terrrestrial mammal native to Australia, and the lergest extant marsupial. The male have short, red-brown fur, fading to pale buff below and on the limbs. Femals are smaller than males and are blue-grey with a brown tinge."
+  },
+  {
+    "name": "Fennec Fox",
+    "sci-name": "Vulpes Zerda",
+    "status": "Least Concern",
+    "des": "The most distinctive feature of the Fennec Fox is its large ears, which also serve to dissipate heat. It also is the smallest species of canid. Its hearing is senstive enough to hear prey moving underground, which are insects, small mammals, and birds."
+  },
+  {
+    "name": "Nubian Ibex",
+    "sci-name": "Capra Nubiana",
+    "status": "Vulnerable",
+    "des": "The Nubian Ibex is a desert-dwelling goat species. They have light tan color, with a white underbelly; males also have a drak brown stripe down their backs. They live in rough, dry, mountaines terrain in northenr and northeast Africa, and the Middle East."
+  },
+  {
+    "name": "Horned Desert Viper",
+    "sci-name": "Cerastes Cerastes",
+    "status": "Least Concern",
+    "des": "The Horned Deser Viper typically move about by sidewinding, druing which they press their weight into the sand or soild, leaving wholebody impressions. They are ambush predators, lying submerged in the sand adjacent to rocks or under vegetation."
+  },
+  {
+    "name": "Demoiselle Crane",
+    "sci-name": "Grus Virgo",
+    "status": "Least Concern",
+    "des": "The Demoiselle Crane is the smallest species of crane. It has a lound trumpeting call, higher-pitched than the common crane. Demoiselle cranse have tot ake of the toughes migrations in the world, crossing the Himlayan mountains to get to their over-wintering grounds in India."
+  },
+  {
+    "name": "Snow Leopard",
+    "sci-name": "Panthera Uncia",
+    "status": "Vulnerable",
+    "des": "The Snow Leopard's fur is whitish to gray with black spots on head and neck, but larger rosetts on the back, flanks and bushy tail. They shows several daptations for living in a cold, mountous enviornment. It small rounded ears help to minimize heat loss, its broad paws well distribute the body weight for woalking on snow,  and have fur on their undersides to increase the grop on steep and unsable surfaces."
+  },
+  {
+    "name": "Gelada",
+    "sci-name": "Theropithecus Gelada",
+    "status": "Least Concern",
+    "des": "Geladas are found only in the high grassland of the deep gorges of the central Ethiopian plateau. They live in eleveations 1,800 - 4,400 m above eas level, using the cliffs of sleeping. The gelada is the only primate that primarily eat grass."
+  },
+  {
+    "name": "Golden Eagle",
+    "sci-name": "Aquila Chrusaetous",
+    "status": "Least Concern",
+    "des": "The Golden Eagle is the most widely distributed species of eagle. These bird are dark brown, with lighter golden-brown plumage on their napes. They build larges nests in cliffs and other high places to which they may return for several breeding years."
+  },
+  {
+    "name": "Markhor",
+    "sci-name": "Capra Falconeri",
+    "status": "Near Threatened",
+    "des": "The Markhor is a large goat species native to Central Asia, Karakoram, and the Himalayas. The Markhor feature tighly curled, corckscrew-like horns, which close together at the head, but spread upwards toward the tips. They are adapted to mountainous terrain, and can be found between 600 and 3,600 meters in elevation"
   }
 
 ]
