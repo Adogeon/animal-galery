@@ -7,23 +7,28 @@
     "species": [
       {
         "name": "Okapi",
-        "imgURL": "https://www.rainforest-alliance.org/sites/default/files/styles/750w_585h/public/2017-08/okapi-fullsize.jpg?itok=jMogcQi5"
+        "imgURL": "https://www.rainforest-alliance.org/sites/default/files/styles/750w_585h/public/2017-08/okapi-fullsize.jpg?itok=jMogcQi5",
+        "linkId": "okapi"
       },
       {
         "name": "Tapir",
-        "imgURL": "https://www.edgeofexistence.org/wp-content/uploads/2017/06/Tapirus-indicus_shutterstock_411690637-1000x667.jpg"
+        "imgURL": "https://www.edgeofexistence.org/wp-content/uploads/2017/06/Tapirus-indicus_shutterstock_411690637-1000x667.jpg",
+        "linkId": "tapir"
       },
       {
         "name": "Jaguar",
-        "imgURL": "https://upload.wikimedia.org/wikipedia/commons/4/41/Jaguar_in_Pantanal_Brazil_1_%28cropped%29.jpg"
+        "imgURL": "https://upload.wikimedia.org/wikipedia/commons/4/41/Jaguar_in_Pantanal_Brazil_1_%28cropped%29.jpg",
+        "linkId": "jaguar"
       },
       {
-        "name": "Black-head Spider Monke",
-        "imgURL": "https://audubonnatureinstitute.org/images/600x450/zoo/spider-monkey-600.jpg"
+        "name": "Black-head Spider Monkey",
+        "imgURL": "https://audubonnatureinstitute.org/images/600x450/zoo/spider-monkey-600.jpg",
+        "linkId": "spidermonkey"
       },
       {
         "name": "Brown-throated Sloth",
-        "imgURL": "https://upload.wikimedia.org/wikipedia/commons/1/18/Bradypus.jpg"
+        "imgURL": "https://upload.wikimedia.org/wikipedia/commons/1/18/Bradypus.jpg",
+        "linkId": "sloth"
       }
     ]
   },
@@ -35,23 +40,28 @@
     "species": [
       {
         "name": "Whale Shark",
-        "imgURL": "https://i.insider.com/5d1a31f02516e92a1014446b?width=779&format=jpeg"
+        "imgURL": "https://i.insider.com/5d1a31f02516e92a1014446b?width=779&format=jpeg",
+        "linkId": "whaleshark"
       },
       {
         "name": "Japanese Spider Crab",
-        "imgURL": "https://www.georgiaaquarium.org/wp-content/uploads/2018/08/animal-crab.jpg"
+        "imgURL": "https://www.georgiaaquarium.org/wp-content/uploads/2018/08/animal-crab.jpg",
+        "linkId": "spidercrab"
       },
       {
         "name": "Green Sea Turtle",
-        "imgURL": "https://images.squarespace-cdn.com/content/v1/5369465be4b0507a1fd05af0/1401857267589-LTDZ4ZWKAAJ37CU72LVV/ke17ZwdGBToddI8pDm48kOumf8f7DXE9eI5ekjV0fflZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIv2KlheSKzUo4EcAbd3aEJYc4O5nXPV5t7VXyeYX4xe8KMshLAGzx4R3EDFOm1kBS/picture-19.jpg?format=1500w"
+        "imgURL": "https://images.squarespace-cdn.com/content/v1/5369465be4b0507a1fd05af0/1401857267589-LTDZ4ZWKAAJ37CU72LVV/ke17ZwdGBToddI8pDm48kOumf8f7DXE9eI5ekjV0fflZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIv2KlheSKzUo4EcAbd3aEJYc4O5nXPV5t7VXyeYX4xe8KMshLAGzx4R3EDFOm1kBS/picture-19.jpg?format=1500w",
+        "linkId": "greenturtle"
       },
       {
         "name": "Brown Fur Seal",
-        "imgURL": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/cape-fur-seal-david-hosking.jpg"
+        "imgURL": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/cape-fur-seal-david-hosking.jpg",
+        "linkId": "seal"
       },
       {
         "name": "Oceanic Whitetip Shark",
-        "imgURL": "https://www.floridamuseum.ufl.edu/wp-content/uploads/sites/66/2017/05/Carcharhinus-longimanus-10.jpg"
+        "imgURL": "https://www.floridamuseum.ufl.edu/wp-content/uploads/sites/66/2017/05/Carcharhinus-longimanus-10.jpg",
+        "linkId": "whitetipshark"
       }
     ]
   },
@@ -63,23 +73,28 @@
     "species": [
       {
         "name": "Mongolian Gazelle",
-        "imgURL": "https://i.pinimg.com/736x/d9/e5/d1/d9e5d103545df855877cc02d6353b7d1.jpg"
+        "imgURL": "https://i.pinimg.com/736x/d9/e5/d1/d9e5d103545df855877cc02d6353b7d1.jpg",
+        "linkId": "mongoliangazelle"
       },
       {
         "name": "Saiga Antelope",
-        "imgURL": "https://i.pinimg.com/originals/65/d2/28/65d228469895ad03e1a733e418a8285a.jpg"
+        "imgURL": "https://i.pinimg.com/originals/65/d2/28/65d228469895ad03e1a733e418a8285a.jpg",
+        "linkId": "saiga"
       },
       {
         "name": "Coyote",
-        "imgURL": "https://i2.wp.com/oshawaexpress.ca/wp/wp-content/uploads/2019/06/coyote.jpg?resize=1000%2C954"
+        "imgURL": "https://i2.wp.com/oshawaexpress.ca/wp/wp-content/uploads/2019/06/coyote.jpg?resize=1000%2C954",
+        "linkId": "coyote"
       },
       {
         "name": "Caribou",
-        "imgURL": "https://thumbs-prod.si-cdn.com/wAZ3grZ9kl_cdpKbu5HQ3Lboeh0=/800x600/filters:no_upscale()/https://public-media.si-cdn.com/filer/c8/66/c8669825-2fef-43a9-bf76-6ed0064162de/istock-846982062.jpg"
+        "imgURL": "https://thumbs-prod.si-cdn.com/wAZ3grZ9kl_cdpKbu5HQ3Lboeh0=/800x600/filters:no_upscale()/https://public-media.si-cdn.com/filer/c8/66/c8669825-2fef-43a9-bf76-6ed0064162de/istock-846982062.jpg",
+        "linkId": "caribou"
       },
       {
         "name": "Wild Yak",
-        "imgURL": "https://cdn.britannica.com/40/188540-050-9AC748DE/Yak-Himalayas-Nepal.jpg"
+        "imgURL": "https://cdn.britannica.com/40/188540-050-9AC748DE/Yak-Himalayas-Nepal.jpg",
+        "linkId": "yak"
       }
     ]
   },
@@ -91,23 +106,28 @@
     "species": [
       {
         "name": "Bactrian Camel",
-        "imgURL": "https://upload.wikimedia.org/wikipedia/commons/8/82/2011_Trampeltier_1528.JPG"
+        "imgURL": "https://upload.wikimedia.org/wikipedia/commons/8/82/2011_Trampeltier_1528.JPG",
+        "linkId": "camel"
       },
       {
         "name": "Red Kangaroo",
-        "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Red_kangaroo_-_melbourne_zoo.jpg/1200px-Red_kangaroo_-_melbourne_zoo.jpg"
+        "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Red_kangaroo_-_melbourne_zoo.jpg/1200px-Red_kangaroo_-_melbourne_zoo.jpg",
+        "linkId": "kangaroo"
       },
       {
         "name": "Fennec Fox",
-        "imgURL": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Fennec_Fox.jpg"
+        "imgURL": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Fennec_Fox.jpg",
+        "linkId": "fennecfox"
       },
       {
         "name": "Nubian Ibex",
-        "imgURL": "https://animals.sandiegozoo.org/sites/default/files/inline-images/nubian_ibex_male.jpg"
+        "imgURL": "https://animals.sandiegozoo.org/sites/default/files/inline-images/nubian_ibex_male.jpg",
+        "linkId": "ibex"
       },
       {
         "name": "Horned Desert Viper",
-        "imgURL": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Hornviper_Cerastes_cerastes.jpg"
+        "imgURL": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Hornviper_Cerastes_cerastes.jpg",
+        "linkId": "viper"
       }
     ]
   },
@@ -119,23 +139,28 @@
     "species": [
       {
         "name": "Demoiselle Crane",
-        "imgURL": "https://download.ams.birds.cornell.edu/api/v1/asset/140483601/1800"
+        "imgURL": "https://download.ams.birds.cornell.edu/api/v1/asset/140483601/1800",
+        "linkId": "crane"
       },
       {
         "name": "Snow Leopard",
-        "imgURL": "https://scx2.b-cdn.net/gfx/news/2017/snowleopard.jpg"
+        "imgURL": "https://scx2.b-cdn.net/gfx/news/2017/snowleopard.jpg",
+        "linkId": "snowleopard"
       },
       {
         "name": "Gelada",
-        "imgURL": "https://animals.sandiegozoo.org/sites/default/files/2018-08/Gelada_ZN.jpg"
+        "imgURL": "https://animals.sandiegozoo.org/sites/default/files/2018-08/Gelada_ZN.jpg",
+        "linkId": "gelada"
       },
       {
         "name": "Golden Eagle",
-        "imgURL": "https://www.audubon.org/sites/default/files/styles/hero_image/public/golden-eagle-1-c-stewart-finlayson.jpg?itok=t-5GUGpf"
+        "imgURL": "https://www.audubon.org/sites/default/files/styles/hero_image/public/golden-eagle-1-c-stewart-finlayson.jpg?itok=t-5GUGpf",
+        "linkId": "goldeneagle"
       },
       {
         "name": "Markhor",
-        "imgURL": "https://upload.wikimedia.org/wikipedia/commons/3/38/Markhor_Schraubenziege_Capra_falconeri_Zoo_Augsburg-02.jpg"
+        "imgURL": "https://upload.wikimedia.org/wikipedia/commons/3/38/Markhor_Schraubenziege_Capra_falconeri_Zoo_Augsburg-02.jpg",
+        "linkId": "markhor"
       }
     ]
   }

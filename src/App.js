@@ -3,12 +3,10 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 import HomePage from "./pages/HomePage";
 import BiomePage from "./pages/BiomePage";
+import SpeciesPage from "./pages/SpeciesPage";
 import "./App.scss";
 
 function App() {
-
-  
-
   return (
     <Router>
       <Route
@@ -31,6 +29,9 @@ function App() {
                     </Route>
                     <Route path="/biome/:key">
                       <BiomePage />
+                    </Route>
+                    <Route path="/species/:key">
+                      <SpeciesPage />
                     </Route>
                   </Switch>
                 </CSSTransition>

@@ -23,7 +23,7 @@ const BiomePage = () => {
           <div id="galery">
             {data.species.map(species => {
               return (
-                <Link>
+                <Link to={`/species/${species.linkId}`}>
                   <img src={species.imgURL} alt="thumbnail"></img>
                 </Link>
               );

@@ -23,7 +23,7 @@ const HomePage = () => {
                   {biome.species.map(species => {
                     return (
                       <li>
-                        <Link>
+                        <Link to={`/species/${species.linkId}`}>
                           {species.name}
                           <img src={species.imgURL} alt="sm-img"></img>
                         </Link>
