@@ -4,7 +4,6 @@ import { Link, useParams } from "react-router-dom";
 
 import Header from "../components/Header";
 import NavBar from "../components/NavBar";
-
 import content from "../data/data.json";
 
 const BiomePage = () => {
