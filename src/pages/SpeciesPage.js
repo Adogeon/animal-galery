@@ -19,12 +19,12 @@ const SpeciesPage = () => {
       <div className="slide-wrapper">
         <div>
           <div className="hid-box"></div>
-          <div className="return-bar">
-            <button className="return-button"onClick={goBackOnClick}>
-              Close X
-            </button>
-          </div>
           <main>
+            <div className="return-bar">
+              <button className="return-button" onClick={goBackOnClick}>
+                Close X
+              </button>
+            </div>
             <h1>{data.name}</h1>
             <section className="species-article">
               <div className="img-wrapper">

@@ -18,7 +18,6 @@ const BiomePage = () => {
         <div className={"hid-box"}></div>
         <NavBar />
         <main style={backColor}>
-          <div id="biome-intro">{data.desc}</div>
           <div id="galery">
             {data.species.map(species => {
               return (

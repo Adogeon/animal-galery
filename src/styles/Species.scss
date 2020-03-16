@@ -14,7 +14,11 @@
 .return-button {
   border: 0;
   color: #000;
-  background-color: #fff;
+  background-color: #f0f0f0;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .species-detail {
