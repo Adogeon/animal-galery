@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ReactCursorPosition, { INTERACTIONS } from "react-cursor-position";
 
 import NavBar from "../components/NavBar";
 import Header from "../components/Header";
+import MarqueeBar from "../components/MarqueeBar";
 
 import content from "../data/data.json";
 
@@ -18,8 +20,11 @@ const HomePage = () => {
         <div id="link-list">
           {data.map(biome => {
             return (
-              <div className="horz-scroll">
-                <ul className="link-marquee">
+              <ReactCursorPosition
+                activationInteractionMouse={INTERACTIONS.HOVER}
+                className="horz-scroll"
+              >
+                <MarqueeBar>
                   {biome.species.map(species => {
                     return (
                       <li>
@@ -30,8 +35,8 @@ const HomePage = () => {
                       </li>
                     );
                   })}
-                </ul>
-              </div>
+                </MarqueeBar>
+              </ReactCursorPosition>
             );
           })}
         </div>
