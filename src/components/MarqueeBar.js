@@ -1,27 +1,38 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import LinkMarquee from "./LinkMarquee";
 
 const MarqueeBar = props => {
   const {
     elementDimensions: { width = 0 } = {},
-    position: { x = 0 } = {}
+    position: { x = 0 } = {},
+    isActive = false
   } = props;
 
-  const [marqueWidth, setMarqueWidth] = useState(0);
+  const [translatePercent, setTranslatePercent] = useState(0);
+
+  useEffect(() => {
+    let temp = translatePercent;
+    let timer = false;
+    if (isActive) {
+      timer = setInterval(() => {
+        if (x >= width / 2 && temp >= -250) {
+          temp -= 0.045;
+          setTranslatePercent(temp);
+        } else if (x < width / 2 && temp < 0) {
+          temp += 0.045;
+          setTranslatePercent(temp);
+        }
+      }, 1);
+    }
+    return () => clearInterval(timer);
+  }, [isActive, x]);
 
   return (
     <>
-      <div>marqueWidth: {marqueWidth}</div>
-      <div>width: {width}</div>
-      <div>x: {x}</div>
       <LinkMarquee
-        onSize={size => {
-          setMarqueWidth(size.width);
-        }}
-      >
-        {" "}
-        {props.children}
-      </LinkMarquee>
+        data={props.data}
+        childrenStyle={{ transform: "translateX(" + translatePercent + "%)" }}
+      />
     </>
   );
 };

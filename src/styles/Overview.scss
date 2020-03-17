@@ -10,18 +10,6 @@ $line-height: 72px;
   background-color: #ffffff;
 }
 
-@keyframes marquee {
-  0% {
-    transform: translateX(0%);
-  }
-  50% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(100%);
-  }
-}
-
 .horz-scroll {
   width: 100vw;
   overflow-x: hidden;
@@ -38,18 +26,10 @@ $line-height: 72px;
   line-height: $line-height;
   height: 72px;
   margin-bottom: 1rem;
-  &:hover {
-    animation: marquee 20s linear 0s infinite;
-  }
 
   li {
     flex-basis: content;
     display: inline-block;
-
-    &::after {
-      content: ";";
-      margin-right: 1rem;
-    }
 
     a {
       font-size: 100%;
@@ -62,7 +42,13 @@ $line-height: 72px;
         width: auto;
         height: auto;
       }
+
+      &::after {
+        content: ";";
+        margin-right: 1rem;
+      }
     }
+
     &:last-child::after {
       content: "";
     }

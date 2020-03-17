@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const NavBar = props => {
   const active = {
-    "font-style": "italic"
+    fontStyle: "italic"
   };
 
   return (

@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import ReactCursorPosition, { INTERACTIONS } from "react-cursor-position";
 
 import NavBar from "../components/NavBar";
@@ -18,24 +17,14 @@ const HomePage = () => {
           A small galery demonstrate the diverse fauna of Earth.
         </div>
         <div id="link-list">
-          {data.map(biome => {
+          {data.map((biome, index) => {
             return (
               <ReactCursorPosition
                 activationInteractionMouse={INTERACTIONS.HOVER}
                 className="horz-scroll"
+                key={`biome-${index}`}
               >
-                <MarqueeBar>
-                  {biome.species.map(species => {
-                    return (
-                      <li>
-                        <Link to={`/species/${species.linkId}`}>
-                          {species.name}
-                          <img src={species.imgURL} alt="sm-img"></img>
-                        </Link>
-                      </li>
-                    );
-                  })}
-                </MarqueeBar>
+                <MarqueeBar data={biome.species} />
               </ReactCursorPosition>
             );
           })}
